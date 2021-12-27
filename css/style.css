@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Imperial+Script&family=Josefin+Sans:wght@100&family=M+PLUS+1+Code:wght@100&family=Twinkle+Star&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+:root{
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--button:#af872f;
+--black:#000;
+}
+img{
+    max-width: 100%  !important;
+    height: auto;
+}
+#btn{
+    outline: red !important;
+    color: var(--light) !important;
+   margin-left: 10px;
+   border: 2px solid var(--button);
+   width: 135px !important;
+   text-align: center;
+   height: 32px;
+} 
+.life h1{
+    font-family: 'dancing script',cursive !important;
+}
+.header.sticky{
+    background: var(--black);
+}
+.navbar-nav{
+    align-items: center;
+}
+
+
+.nav-link:hover{
+    color: var(--button) !important;
+}
+/* ==========nav bar========= */
+.header .nav-link{
+    color: white !important;  
+    width: 10rem !important;
+}
+header{
+    background:rgba(0,0,0,.15) ;
+}
+.header .nav-item{
+    width: 100px !important;
+}
+.dropdown-menu {
+    font-size: 1rem;
+    color: #212529;
+    background-color:rgba(0,0,0,.15) !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    text-align: center;
+}
+.dropdown-item:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    text-align: center;
+    
+}
+.modal-title{
+    margin-left: 100px !important;
+    font-family: 'dancing script',cursive;
+    
+}
+.modal-header {
+   
+    border-bottom: none !important;
+ 
+}
+.modalform {
+    color: #464646;
+}
+.modalform .form-row {
+    margin-bottom: 15px;
+}
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.modalform .form-control {
+    padding: 10px 15px;
+    height: 40px !important;
+}
+.form-control {
+    width: 100% !important;
+    height: 50px !important;
+    padding: 4px 20px 6px 40px;
+    font-size: 14px;
+    line-height: 24px;
+    color: inherit;
+    background: none;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.modal-body {
+    padding: 1rem 2rem;
+}
+.modal-title::after{
+display: block;
+content: '';
+width: 149px;
+height: 12px;
+margin: 10px auto;
+background-image: url(../images/line.jpeg);
+}
+
+.modal-footer {
+  
+    border-top: none !important;
+
+}
+.modal-content {
+   
+    height: 500px;
+}
+.modalform textarea.form-control {
+    height: 120px !important;
+    margin-bottom: 30px;
+}
+/* ==========banner starts from here========= */
+/* .carousel-control-prev,
+.carousel-control-next{
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        height: 50px !important;
+        width: 50px !important;
+        top: 20rem !important;
+/* ==========carousel starts from here========= */
+.carousel-caption1{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%) ;
+    color: #fff;
+    text-align: center; 
+    line-height: .001rem;
+    max-width: 500px;
+    word-break: unset;
+} 
+
+/* ==========carousel ends from here========= */        
+        
+
+/* .carousel-control-prev{
+    left: 7rem !important;
+}
+.carousel-control-next{
+    right: 7rem !important;
+} */
+.banner h2{
+     color:var(--light) !important;  
+     font-family: 'dancing script',cursive !important; 
+}
+.btn{
+    background: var(--button) !important;
+    color: var(--light) !important;
+
+} 
+
+/* ==========banner ends from here========= */
+
+/* ==========title starts from here========= */
+.title{
+    font-family: latin !important;
+    color: var(--secondary) !important;
+}
+/* .life:before {
+    
+    content: url(../images/serperator.jpeg);
+    position: relative !important;
+    top: 91px !important;
+    
+  
+} */
+
+/* ==========titles ends from here========= */
+/* h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+
+
+/* ==========card starts from here========= */
+.card {
+    border: none !important;
+}
+
+/* ==========card ends from here========= */
+
+/* ==========special starts from here========= */
+.special{
+    padding: 20px 0  !important;
+    background-image: linear-gradient(rgba(67,67,67,.9),rgba(67,67,67,.9)),url(../images/bgfoodicon.jpeg);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: repeat  !important;
+}
+.special h1{
+    font-family: 'dancing script',cursive;
+}
+.special span{
+    font-family: 'Latin';
+    font-size: 2rem;
+    color: #c79a39;
+    margin-top: 15px;
+}
+.special h4{
+    font-size: 3rem !important;
+}
+.special:after {
+    display: block;
+    content: "";
+    position: relative;
+    bottom: -50px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50px;
+    margin: -52px auto 0;
+    z-index: 99;
+}
+.special:before {
+    display: block;
+    content: "";
+    position: relative;
+    bottom: 6px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50px;
+    margin: -52px auto 0;
+    z-index: 99;
+}
+
+
+/* ==========special ends from here========= */
+
+
+/* ==========special starts from here========= */
+.coustomer{
+    background: linear-gradient(rgba(67,67,67,.9),rgba(67,67,67,.9)),url(../images/bgfoodicon.jpeg);
+ 
+}
+
+.coustomer h1{
+    font-family: 'dancing script',cursive;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 38px !important;
+}
+
+.coustomer:before {
+    display: block;
+    content: "";
+    position: relative;
+    bottom: 2rem;
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 50px;
+    margin: 0px auto 0;
+    z-index: 99;
+} 
+.coustomer:after {
+    display: block;
+    content: "";
+    position: relative;
+    bottom: -50px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50px;
+    margin: -52px auto 0;
+    z-index: 99;
+}
+/* ==========special ends from here========= */
+
+/* ==========navbardiscover starts from here========= */
+
+.discover h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.menu h1{
+    font-family: 'dancing script',cursive ;
+}
+.dicovernavbar .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    width:150px !important;
+    font-family: 'dancing script' ,cursive;
+    font-size: 2rem !important;
+}
+.discover span{
+    font-family: 'Latin';
+    font-size: 2rem;
+    color: #c79a39;
+    margin-top: 15px;
+}
+.discover h3,p{
+    font-family: 'dancing script',cursive;
+}
+.discoverbutton{
+    margin-top:37px;
+}
+.discover-container{
+    background:url(../images/wallrepeat.jpeg);
+    
+}
+.discover .columns1{
+    position: relative !important;
+ 
+    
+}
+.columns1 .row {
+    --bs-gutter-x: -0.5rem !important;
+    margin-top: 10px !important;
+}
+.discover .sideonecolumn{
+    background:var(--light);
+    background-size: 200px !important;
+    height: 800px !important;
+}
+.discover .sidetwocolumn{
+    background:var(--light);
+    background-size: 200px !important;
+    height: 800px !important;
+}
+.sideonecolumn aside .home-1{
+    height: 200px;
+    width: 100%;
+    margin-top: 42px;
+}
+.sidetwocolumn aside .home-1{
+    height: 220px;
+    width: 100%;
+    /* margin-top:60px; */
+}
+.sideonecolumn aside .home-2{
+    height: 200px;
+    width: 100%;
+    
+}
+.sidetwocolumn aside .home-2 {
+    height: 179px;
+    width: 100%;
+    margin-top: 21px;
+}
+
+
+
+/* ==========navbardiscover ends from here========= */
+
+
+
+/* ==========events starts from here========= */
+.eventshead{
+    font-family: 'dancing script',cursive;
+}
+
+/* ==========events ends from here========= */
+
+/* ==========footer starts from here========= */
+.footbg{
+  background: linear-gradient(rgba(67,67,67,.9),rgba(67,67,67,.9)),url(../images/bgfoodicon.jpeg);
+
+}
+.partone{
+    color: white;
+    text-align: center;
+    
+}
+.secondpart{
+    background-color:rgba(48, 46, 46, 0.9);
+    border-radius: 20px;
+    margin-top:50px;
+    
+}
+.venuedetails{
+    padding: 23px;  
+}
+.foottitle{
+    font-family: 'dancing script',cursive;
+}
+.list{
+    border-bottom: 1px dotted grey;
+}
+.footerdetail{
+    display: flex;
+}
+.thirdpart{
+    color: white;
+    text-align: center;
+
+}
+.thirdpart small{
+    display: block;
+}
+
+
+.endfooter{
+    color: white;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 98px;
+    
+}
+
+/* .asides1::after{
+    display: block;
+    content: "";
+    position: relative;
+    bottom: -2px;
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(rgba(21, 20, 20, 0.9),rgba(21, 20, 20, 0.9));
+    border-radius: 50px;
+    margin: 0px auto 0;
+    z-index: 99;
+}
+.asides1::before{
+    display: block;
+    content: "";
+    position: relative;
+    bottom: 26px;
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(rgba(21, 20, 20, 0.9),rgba(21, 20, 20, 0.9));
+    border-radius: 50px;
+    margin: 0px auto 0;
+    z-index: 99;
+} */
+
+/* ==========footer starts from here========= */
